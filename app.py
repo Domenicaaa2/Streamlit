@@ -15,7 +15,7 @@ def load_data():
 df = load_data()
 
 # Header
-st.header("Covid-19 Fallzahlen Analyse für Kanton Zürich")
+st.header("Covid-19 Fallzahlen für Kanton Zürich von 27.02.2020 - 03.01.2023")
 
 # PLZ Auswahl
 plz = st.selectbox("PLZ wählen", df['PLZ'].unique(), index=0)
