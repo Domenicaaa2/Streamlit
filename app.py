@@ -38,6 +38,4 @@ else:
 st.subheader("Übersicht der ersten 100 Einträge im Datensatz")
 st.dataframe(df.head(100))
 
-# Button um Daten zu aktualisieren
-if st.button('Daten aktualisieren'):
-    st.experimental_rerun()
+
